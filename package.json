@@ -26,7 +26,7 @@
         "*.{js,json,css,md}": ["prettier --write", "git add"]
     },
     "dependencies": {
-        "canvas-prebuilt": "^1.6.5-prerelease.1"
+        "canvas-prebuilt": "git://github.com/node-gfx/node-canvas-prebuilt.git"
     },
     "devDependencies": {
         "chai": "^3.4.1",
